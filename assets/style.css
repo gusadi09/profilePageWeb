@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:400,700|Pacifico|Ubuntu|Viga&display=swap');
+
+body {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: inline;
+}
+
+nav {
+    background-color: #1abc9c;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a{
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    color: #f1c40f;
+}
+
+
+
+#home {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #f1c40f;
+    text-align: center;
+    color: white;
+}
+
+.font1 {
+    font-family: 'Pacifico', cursive;
+    margin-top: 5px;
+}
+
+.font2 {
+    font-family: 'Mukta', sans-serif;
+}
+
+
+
+.text-center{
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+    font-size: 50px !important;
+    color:  #e67e22;
+    text-shadow: 2px 2px 5px #2980b9;
+}
+
+.img-marg1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.judul{
+    text-align: center;
+}
+
+#experience h1{
+    font-size: 30px;
+    color: #e67e22;
+}
+
+.card-ex {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+main {
+    padding: 20px;
+    background-color: #2980b9;
+    overflow: auto;
+}
+
+.profile header{
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #1abc9c;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ #content {
+     float: left;
+     width: 75%;
+ }
+
+ aside {
+     float: right;
+     width: 25%;
+     padding-left: 20px;
+ }
+
+ *{
+    box-sizing: border-box;
+}
+
+.txt {
+    font-family: 'Ubuntu', sans-serif;
+    text-align-last: center;
+}
+
+#text{
+    float: left;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
